@@ -1,0 +1,37 @@
+{
+  "name": "ariga",
+  "description": "Agent skills for Atlas, the database schema-as-code tool.",
+  "owner": {
+    "name": "Ariga",
+    "url": "https://atlasgo.io"
+  },
+  "plugins": [
+    {
+      "name": "atlas",
+      "displayName": "Atlas",
+      "source": "./skills",
+      "skills": [
+        "./atlas",
+        "./atlas-action",
+        "./atlas-clickhouse",
+        "./atlas-databricks",
+        "./atlas-mssql",
+        "./atlas-mysql",
+        "./atlas-onboard",
+        "./atlas-operator",
+        "./atlas-oracle",
+        "./atlas-postgres",
+        "./atlas-redshift",
+        "./atlas-snowflake",
+        "./atlas-spanner"
+      ],
+      "version": "34c9d2ecad57",
+      "description": "Atlas skills for coding agents: database schema management with the Atlas CLI, guided onboarding of a project onto Atlas, the CI/CD steps of the Atlas actions, the Atlas Kubernetes Operator, and the specifics of each database: PostgreSQL, MySQL, and MariaDB.",
+      "author": {
+        "name": "Ariga",
+        "url": "https://atlasgo.io"
+      },
+      "homepage": "https://atlasgo.io/guides/ai-tools/agent-skills"
+    }
+  ]
+}
